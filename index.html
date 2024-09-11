@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Thiago Gomes Lopes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="header">
+        <div class="navbar-brand">
+            <h1>TGL</h1>
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiência</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </header>
+    
+    <div class="background">
+        <div class="context">
+            <h1>Thiago Gomes Lopes</h1>
+            <p>Aprendiz de Cibersegurança</p>
+        </div>
+        <div class="circles">
+            <!-- Círculos animados -->
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </div>
+    </div>
+
+    <div class="content">
+              <section id="about">
+                <h2>Sobre</h2>
+                <p>Olá! Meu nome é Thiago Gomes Lopes, tenho 20 anos, falo inglês de forma proficiente e tenho um nível avançado em espanhol. Sou estudante de cibersegurança, com formação técnica em Desenvolvimento Web pela <a href="https://fito.edu.br/ensino-medio-tecnico/tecnico-em-informatica-para-internet/" target="_blank">FITO - Fundação Instituto Tecnológico de Osasco</a>, além de experiência prática em infraestrutura de redes e segurança. Atualmente, estou cursando Cibersegurança na <a href="https://www.fiap.com.br/graduacao/tecnologo/defesa-cibernetica/" target="_blank">FIAP - Faculdade de Informática e Administração Paulista</a>. Meu principal objetivo é desenvolver minhas habilidades continuamente e adquirir novos conhecimentos.</p>
+            </section>
+    
+        
+        <section id="experience">
+            <h2>Experiência Profissional</h2>
+            <div class="experience-item">
+                <h3>Grupo JOFEGE</h3>
+                <p class="location">São Paulo, Brasil</p>
+                <p class="position">Estagiário de Tecnologia da Informação</p>
+                <p class="duration">Abril de 2022 - Abril de 2023 · 1 ano 1 mês</p>
+                <p class="type">Estágio</p>
+                <h4>Atividades:</h4>
+                <ul>
+                    <li>Help Desk</li>
+                    <li>Manutenção e instalação de Hardwares</li>
+                    <li>Acompanhamento em configurações de redes (VPN, Switch, firewall)</li>
+                    <li>Active Directory</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Grupo JOFEGE</h3>
+                <p class="location">São Paulo, Brasil</p>
+                <p class="position">Auxiliar de Tecnologia da Informação</p>
+                <p class="duration">Abril de 2023 – Agosto de 2024 · 1 ano e 5 meses</p>
+                <p class="type">Tempo integral · Presencial</p>
+                <h4>Atividades:</h4>
+                <ul>
+                    <li>Instalações de Infraestrutura de redes (redes físicas e lógicas)</li>
+                    <li>Atuação com firewall Sophos e políticas de segurança</li>
+                    <li>Respostas a vulnerabilidades</li>
+                    <li>Correção de vulnerabilidades e aplicação de melhorias de segurança</li>
+                    <li>Realização de auditorias</li>
+                    <li>Implantação de ferramentas de cibersegurança</li>
+                    <li>Implementação de políticas de segurança através do antivírus Sentinel One</li>
+                    <li>Active Directory e file servers</li>
+                    <li>Atividades em ambiente Kaspersky</li>
+                    <li>Atuação em plataforma Microsoft 365 e ferramentas</li>
+                    <li>Sistemas de backup Acronis</li>
+                    <li>Manutenção e instalação de Hardwares</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Grupo JOFEGE</h3>
+                <p class="location">São Paulo, Brasil</p>
+                <p class="position">Assistente de Tecnologia da Informação</p>
+                <p class="duration">Agosto de 2024 – o momento</p>
+                <p class="type">Tempo integral · Presencial</p>
+                <h4>Atividades:</h4>
+                <ul>
+                    <li>Configuração de políticas e regras de Firewall Sentinel One</li>
+                    <li>Criação de políticas de acesso condicional Azure AD</li>
+                    <li>Criação de regras no Microsoft Entra ID</li>
+                    <li>Realização de auditoria de Firewall Sophos</li>
+                    <li>Resposta a ataques ao ambiente</li>
+                    <li>Correção de vulnerabilidades no ambiente</li>
+                    <li>Atuação em ambiente de virtualização Nutanix</li>
+                    <li>Aplicação de GMUD</li>
+                    <li>Atuação com ferramenta SanerNow</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="projects">
+          <h2>Projetos</h2>
+          <div class="project-item">
+              <h3><a href="https://github.com/okgomes/encontrando-arquivos-deletados" target="_blank">Encontrando Arquivos Deletados</a></h3>
+              <p class="description">Este é um programa em Python projetado para encontrar e listar arquivos excluídos presentes nos diretórios de reciclagem do sistema operacional Windows. Ele utiliza a biblioteca winreg para converter identificadores de segurança (SIDs) em nomes de usuários e os para manipulação de arquivos e diretórios. Ao ser executado, o programa procura por diretórios de reciclagem padrão (C:\Recycler\, C:\Recycled\ e C:\$Recycle.bin\) e lista os arquivos encontrados em cada diretório, mostrando o nome de usuário associado a cada conjunto de arquivos.</p>
+              <h4>Funcionalidades:</h4>
+              <ul>
+                  <li>Localiza automaticamente os diretórios de reciclagem do Windows.</li>
+                  <li>Converte SIDs em nomes de usuários para identificar o proprietário de cada conjunto de arquivos.</li>
+                  <li>Lista os arquivos excluídos encontrados em cada diretório de reciclagem, junto com o nome de usuário associado.</li>
+              </ul>
+              <h4>Como Usar:</h4>
+              <ul>
+                  <li>Clone o repositório para o seu ambiente local.</li>
+                  <li>Execute o script main.py usando Python 3.</li>
+                  <li>O programa encontrará automaticamente os diretórios de reciclagem e listará os arquivos excluídos, mostrando o nome de usuário associado a cada conjunto de arquivos.</li>
+              </ul>
+              <img src="exec.jpg" alt="Screenshot do projeto Encontrando Arquivos Deletados" class="project-image">
+          </div>
+      </section>
+      
+        
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <div class="contact-item">
+                <i class="bi bi-envelope contact-icon"></i>
+                <p>Email: <a href="mailto:thiagogomeslopes84@gmail.com">thiagogomeslopes84@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+                <i class="bi bi-github contact-icon"></i>
+                <p>GitHub: <a href="https://github.com/okgomes" target="_blank">okgomes</a></p>
+            </div>
+            <div class="contact-item">
+                <i class="bi bi-linkedin contact-icon"></i>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/thiago-gomes-777x" target="_blank">Thiago Gomes Lopes</a></p>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Thiago Gomes Lopes. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
